@@ -1,0 +1,261 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
+  color: red;
+  text-decoration: none;
+}
+
+p, li {
+  font-family: 'Nunito', sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #413F42;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.title {
+  margin: 3rem auto;
+  color: #4700D8;
+}
+
+.title h2 {
+  font-size: 2rem;
+}
+.title h3 {
+    color: #413F42;
+}
+
+hr {
+  border-top: 1px dashed #ccc;
+  height: 1em;
+  overflow: visible;
+  border-top: 1px dashed #ccc;
+  height: 1em;
+  text-align: center;
+  overflow: visible;
+  margin: auto;
+}
+
+.hr {
+  width: 30%;
+  margin: 10rem auto;
+}
+
+hr::after {
+  content: "\002702";
+  background: #eee;
+  color: #ccc;
+  display: inline-block;
+  height: 2em;
+  line-height: 2em;
+  position: relative;
+  top: -1em;
+  padding: 0 0.5em;
+}
+
+.navbar-toggler-icon{
+  /* background-image: none; */
+  border-style: none;
+  height: 1rem;
+
+}
+
+
+/* font */
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Smooch', cursive;
+font-family: 'Nunito', sans-serif;*/
+/* ------------header---------- */
+.header {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logo {
+  font-family: 'Smooch', cursive;
+  font-size: 1.3rem;
+}
+
+.nav-item:hover {
+  background-color: #B8F1B0;
+  border-radius: 10%;
+  transition: 0.5s;
+
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+
+
+/* ----------main visual---------- */
+.main-visual {
+  position: relative;
+}
+
+.img-opacity {
+  background: url("../images/fall.jpeg") no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.main-img h1 {
+  font-family: 'Smooch', cursive;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  font-size: 350%;
+  text-align: center;
+  color: #413F42;
+}
+
+.span {
+  color: #4700D8;
+  font-size: 200%;
+}
+
+/* ------------about me------------- */
+.about-me {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.about-me-img img {
+  max-height: 300px;
+  border-radius: 10%;
+
+}
+
+
+
+
+
+/* --------------skills---------- */
+.skills {
+  text-align: center;
+}
+
+.skills-items {
+  padding: 1rem;
+}
+
+.skills-items img {
+  max-height: 5rem;
+}
+
+.skills-items p {
+  padding: 2rem 1rem;
+}
+
+/* ----------works----------- */
+.works {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.works-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.works img {
+  border-radius: 10%;
+  max-width: 23rem;
+
+}
+
+.works-description {
+  line-height: 1.4;
+  text-align: left;
+}
+
+
+.works-text p{
+  width: 70%;
+  margin: 1rem auto;
+  text-align: left;
+}
+
+
+/* ------------form------------- */
+.contact {
+  width: 70%;
+  margin: 0 auto;
+  font-family: 'Nunito', sans-serif;
+  color: #413F42;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.btn {
+  margin-bottom: 10rem;
+  margin-top: 5rem;
+}
+
+.form-padding {
+  margin: 2rem 0;
+}
+/* ------------footer ---------- */
+footer {
+  text-align: center;
+  padding: 2rem;
+  width: 100%;
+  opacity: 0.7;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.small {
+  opacity: 0.5;
+
+}
+
+
+/* --------------media query------------ */
+@media (max-width:769px) {
+  .flex {
+    justify-content: center;
+  }
+
+  .header-items li {
+    padding: 0 2rem;
+  }
+
+
+  .about-me-text {
+    text-align: center;
+    padding-top: 7rem;
+  }
+
+  .works-description {
+    padding: 0 auto;
+  }
+
+  .works-text {
+    padding-top: 2rem;
+  }
+
+}
